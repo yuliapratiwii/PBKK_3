@@ -1,0 +1,75 @@
+/* Style the header */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: right;
+    margin: 10px 20px;
+}
+
+/* Style the "Tambah" link */
+h2 a {
+    text-decoration: none;
+    background-color: #00ff77;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Style the success message */
+div[style="color: rgb(0, 0, 0)"] {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Style each program item */
+.Prodi-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the program description */
+.description {
+    flex: 1;
+}
+
+/* Style the buttons */
+/* Style the buttons and set margin-bottom */
+.buttons a {
+    text-decoration: none;
+    background-color: #4985d8;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 100px; /* Tambahkan margin-bottom di sini */
+}
+
+/* Style the "Hapus" button and set margin-bottom */
+.delete-button {
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 0px;
+    background-color: #e74141;
+    margin-bottom: 10px; /* Tambahkan margin-bottom di sini */
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+
+/* Style the horizontal line */
+hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}

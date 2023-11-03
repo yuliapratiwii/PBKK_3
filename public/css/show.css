@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.Fakultas-item {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faculty-details {
+    flex: 1;
+}
+
+.faculty-details p {
+    margin: 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
