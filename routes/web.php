@@ -6,20 +6,7 @@ use App\Models\Faculty;
 use App\Models\Studyprogram;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/fakultas', [FacultyController::class, 'index'])->name('Fakultas.index');
 Route::get('/fakultas/create', [FacultyController::class, 'create'])->name('Fakultas.create');
 Route::post('/fakultas', [FacultyController::class, 'store'])->name('Fakultas.store');
@@ -36,3 +23,5 @@ Route::get('/prodi/{studyprogram}', [StudyprogramController::class, 'show'])->na
 Route::get('/prodi/{studyprogram}/edit', [StudyprogramController::class, 'edit'])->name('Prodi.edit');
 Route::put('/prodi/{studyprogram}', [StudyprogramController::class, 'update'])->name('Prodi.update');
 Route::delete('/prodi/{studyprogram}', [StudyprogramController::class, 'destroy'])->name('Prodi.destroy');
+
+// Route::resource('prodi', StudyprogramController::class);

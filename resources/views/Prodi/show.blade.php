@@ -7,7 +7,7 @@
     <div class="Prodi-item">
         <div class="faculty-details">
             <p>Nama Program Studi: {{ $studyprogram->name }}</p>
-            <p>Fakultas: {{ $studyprogram->faculty }}</p>
+            <p>Fakultas: {{ $studyprogram->faculty_id }}</p>
             <p>Tahun Berdiri: {{ $studyprogram->since }}</p>
             <p>Nomor telepon: {{ $studyprogram->no_telp}}</p>
         </div>
